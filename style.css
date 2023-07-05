@@ -10,9 +10,10 @@ body {
 }
 
 .container {
-  max-width: 1340px;
   margin: 0 auto;
   display: flex;
+  position: relative;
+  align-items: start;
 }
 
 .bas {
@@ -25,9 +26,9 @@ body {
 
 .mark {
   display: flex;
-  gap: 15px;
+  gap: 1px;
   padding: 50px 0;
-  font-size: 30px;
+  font-size: 23px;
 }
 
 .span {
@@ -54,10 +55,13 @@ body {
 }
 
 .inter {
-  font-size: 20px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
 }
 
 .sidebar {
+  position: fixed;
   border: 1px solid #e5e7eb;
   padding: 8px;
 }
@@ -68,14 +72,18 @@ body {
 }
 
 .number {
+  border-radius: 10px;
+  background: var(--gray-100, #f3f4f6);
   display: flex;
   padding: 2px 12px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #f3f4f6;
-  border-radius: 10px;
-  margin-left: 27px;
+  margin: auto;
+}
+
+.border-numb {
+  margin-left: auto;
 }
 
 .numbers {
@@ -97,7 +105,6 @@ body {
   align-items: center;
   background-color: #f3f4f6;
   border-radius: 10px;
-  margin-left: 3px;
 }
 
 /* glabal */
@@ -113,8 +120,9 @@ body {
 .gap-4 {
   gap: 16px;
 }
-.w-full {
+.w-fulldq {
   width: 100%;
+  margin-left: 210px;
 }
 .main {
   padding: 16px;
