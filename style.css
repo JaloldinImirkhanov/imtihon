@@ -221,9 +221,6 @@ a {
   margin-left: -23px;
 }
 
-.minister {
-}
-
 .button {
   display: flex;
   justify-content: center;
@@ -411,7 +408,9 @@ td {
   padding: 17px;
   font-size: 12px;
 }
-
+.tr {
+  border-bottom: none;
+}
 .umer {
   display: flex;
   align-items: center;
@@ -420,6 +419,7 @@ td {
 }
 table {
   width: 100%;
+  border-collapse: collapse;
 }
 tr {
   border: 0.2px solid rgb(213, 202, 202);
